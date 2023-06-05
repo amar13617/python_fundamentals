@@ -57,3 +57,37 @@ print(id(b))  # 139685763327296
 
 print(a == b)  # True
 print(a is b)  # True
+
+#         Exerise
+#1
+list_1 = [1, 2, 3, 4, 5]
+list_2 = [1, 2, 3, 4, 5]
+
+print(id(list_1) == id(list_2))  # False
+
+list_1 = [1, 2, 3, 4, 5]
+list_2 = list_1
+
+print(id(list_1) == id(list_2))  # True
+
+#2
+numbers = [1, 2, 3, 4]
+new_numbers = numbers + [5]
+
+print(numbers is new_numbers)  # False
+
+numbers = [1, 2, 3, 4]
+print(id(numbers))  # 140220707722752
+
+numbers.append(5)
+print(id(numbers))  # 140220707722752
+
+numbers = [1, 2, 3, 4]
+numbers_copy = numbers
+
+numbers.append(5)
+
+print(numbers is numbers_copy)  # True
+
+#3
+
