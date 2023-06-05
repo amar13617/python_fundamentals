@@ -29,3 +29,31 @@ else:
 x = 10
 value = x if x < 10 else "Invalid value"
 print(value)
+
+#Comparison
+print(5 < 10)     # True
+print(5 > 10)     # False
+print(10 > 10)    # False
+print("A" < "a")  # True
+
+# The ASCII code for A is 65, while a is 97
+
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+print(id(a))  # 139806639351360
+print(id(b))  # 139806638418944
+
+print(a == b)  # True
+print(a is b)  # False
+
+
+a = [1, 2, 3]
+b = a
+
+print(id(a))  # 139685763327296
+print(id(b))  # 139685763327296
+
+print(a == b)  # True
+print(a is b)  # True
