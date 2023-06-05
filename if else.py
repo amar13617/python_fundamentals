@@ -6,7 +6,20 @@
 #else:
 #    print("Hello, stranger")
     
-name = input("Enter name")
-print(bool(name))
-if name:
-    print("I know")
+
+#name = input("Enter name")
+#print(bool(name))
+#if name:
+#    print("I know")
+ 
+ 
+friends = ["Rolf", "Bob", "Anne"]
+family = ["Jen", "Charlie"]
+
+user_name = input("Enter yout name")
+if user_name in friends:
+    print("Hello, Friends")
+elif user_name in family:
+    print("Hello , Family")
+else:
+    print("I don't know")
