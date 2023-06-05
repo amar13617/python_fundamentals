@@ -23,3 +23,8 @@ elif user_name in family:
     print("Hello , Family")
 else:
     print("I don't know")
+    
+    
+# ternary operator
+x = 10
+value = x if x < 10 else "Invalid value"
