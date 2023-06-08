@@ -61,3 +61,16 @@ print(average)
 for employee in employees:
     if employee[2]> average:
         print(employee[0])
+        
+
+#For Loop Project Problem
+
+for number in range(1,101):
+    if number % 3 == 0 and number % 5 == 0:
+        print("Fizz Buzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
