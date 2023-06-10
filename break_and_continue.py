@@ -25,3 +25,4 @@ for status in cars:
     print(f"This car is {status}.")
 else:
     print("All cars built successfully. No faulty cars!")
+
